@@ -1,0 +1,40 @@
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+
+.header {
+  display: flex;
+  margin-inline: var(--margin-hor-sec);
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+/* Menu */
+.header .navbar {
+  display: flex;
+  width: 61%;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p-sec);
+  line-height: var(--fs-p-sec);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+/* Burger menu */
+.burger-menu {
+  width: 33px;
+  display: none;
+}
+.burger-menu hr {
+  margin-bottom: 9px;
+  background-color: black;
+  border: none;
+  border-radius: 33px;
+}
+.burger-menu hr:last-child {
+  margin: 0;
+}

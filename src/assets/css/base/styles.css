@@ -1,0 +1,117 @@
+/* Fonts */
+/* ---------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Numans&display=swap");
+
+/* Imports */
+/* ---------------------------------------------- */
+
+/* Reset */
+@import url(/src/assets/css/base/reset.css);
+
+/* Components */
+/* ---------------------------------------------- */
+@import url(/src/assets/css/css-components/header.css);
+@import url(/src/assets/css/css-components/home.css);
+@import url(/src/assets/css/css-components/countries.css);
+@import url(/src/assets/css/css-components/properties.css);
+@import url(/src/assets/css/css-components/blog.css);
+@import url(/src/assets/css/css-components/footer.css);
+
+/* Media */
+@import url(/src/assets/css/media/media-base.css);
+@import url(/src/assets/css/media/media-header.css);
+@import url(/src/assets/css/media/media-home.css);
+@import url(/src/assets/css/media/media-countries.css);
+@import url(/src/assets/css/media/media-properties.css);
+@import url(/src/assets/css/media/media-blog.css);
+@import url(/src/assets/css/media/media-footer.css);
+
+/* Variables */
+/* ---------------------------------------------- */
+
+:root {
+  /* Colors */
+  --color-prim: #1daeff;
+  --color-acc: #8f90a6;
+  --color-text: #110229;
+
+  /* Fonts */
+  --font-main: "Numans", sans-serif;
+
+  /* Font sizes */
+  --fs-h1: 51px;
+  --fs-h2: 38px;
+  --fs-h3: 28px;
+  --fs-h4: 24px;
+  --fs-p: 22px;
+  --fw-p-sec: 16px;
+
+  /* Font weights */
+  --fw-bolder: 700;
+  --fw-bold: 600;
+  --fw-semibold: 500;
+
+  /* Line heights */
+  --lh-p: 164%;
+  --lh-p-sec: 225%;
+
+  /* Margin */
+  --margin-hor: 70px;
+  --margin-hor-sec: 120px;
+  --margin-hor-1280: 65px;
+  --margin-hor-sec-1280: 100px;
+  --margin-hor-1000: 55px;
+  --margin-hor-sec-1000: 90px;
+  --margin-hor-768: 40px;
+  --margin-hor-sec-768: 60px;
+  --margin-hor-540: 25px;
+  --margin-hor-sec-540: 40px;
+
+  /* Padding */
+}
+
+/* Styles */
+/* ---------------------------------------------- */
+
+/* Wrapper */
+.wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 45px 0 108px;
+}
+
+/* Vertical line */
+.vl {
+  width: 1.7px;
+  border-radius: 30px;
+  background: #dcdceb;
+}
+
+/* Transperant button */
+.button-transperant {
+  border: 2px solid var(--color-prim);
+  line-height: var(--lh-p-sec);
+  border-radius: 14px;
+  padding: 7px 40px;
+  display: flex;
+}
+.button-transperant:hover {
+  background: var(--color-prim);
+  color: #fff;
+}
+
+/* Button */
+.button {
+  border-radius: 14px;
+  width: 213px;
+  height: 50px;
+  background: var(--color-prim);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-p-sec);
+  line-height: var(--lh-p-sec);
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+}

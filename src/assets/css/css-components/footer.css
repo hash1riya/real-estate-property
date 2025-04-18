@@ -1,0 +1,85 @@
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+
+footer {
+  margin-inline: var(--margin-hor-sec);
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 221%;
+  color: var(--color-acc);
+  margin-bottom: 34px;
+}
+
+/* Navbar */
+footer ul {
+  list-style: none;
+}
+footer li {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 289%;
+  color: var(--color-text); 
+}
+/* Navbar head */
+.navbar-head {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 180%;
+  color: var(--color-text);
+}
+
+/* Footer content */
+.footer-content p {
+  width: 410px;
+}
+/* Logo */
+footer .logo {
+  margin-bottom: 27px;
+}
+/* Social */
+.social {
+  margin-bottom: 35px;
+  display: flex;
+  gap: 28px;
+}
+/* Rigths */
+.rigths {
+  font-size: 13px;
+}
+
+
+/* Subscription */
+.subscription p {
+  margin-block: 25px 22px;
+  line-height: 164%;
+  width: 255px;
+}
+/* Email input */
+.email-input {
+  display: flex;
+  border: 2px solid #d0d0e3;
+  border-radius: 15px;
+  padding: 10px 12px;
+}
+footer input {
+  border: none;
+}
+footer input[type="email"] {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164%;
+  color: var(--color-acc);
+  width: 100%;
+  margin-right: 10px;
+}
+footer input[type="submit"] {
+  width: 40px;
+  height: 35px;
+  border-radius: 100%;
+  background: url(/src/assets/img/ico-arrow.svg) no-repeat center, #1daeff;
+}

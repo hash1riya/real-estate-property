@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-main);
+  color: var(--color-text);
+  transition: 0.25s;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+a:hover {
+  color: var(--color-acc);
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+input:focus {
+  outline: none;
+}
+input[type="submit"],
+button,
+a {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-text);
+  font-weight: var(--fw-bold);
+}
+h1 {
+  font-size: var(--fs-h1);
+}
+h2 {
+  font-size: var(--fs-h2);
+}
+h3 {
+  font-size: var(--fs-h3);
+}
+h4 {
+  font-size: var(--fs-h4);
+}
+
+p {
+  font-size: var(--fs-p);
+  line-height: var(--lh-p);
+}
+
+hr {
+  background-color: black;
+  border: none;
+  height: 2.5px;
+}

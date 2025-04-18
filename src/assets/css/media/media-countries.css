@@ -1,0 +1,61 @@
+/* --------- */
+/* Countries */
+/* --------- */
+
+@media screen and (max-width: 1440px) {
+  .country-tab {
+    height: 426px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .countries {
+    margin-inline: var(--margin-hor-sec-1280);
+    margin-bottom: 110px;
+  }
+  .country-tab {
+    height: 426px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .countries {
+    margin-inline: var(--margin-hor-sec-1000);
+    margin-bottom: 80px;
+  }
+  .country-tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .country-tab {
+    width: 25vw;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .countries {
+    margin-inline: var(--margin-hor-sec-768);
+    margin-bottom: 55px;
+  }
+  .tab-header {
+    font-size: 30px;
+  }
+  .country-tab {
+    width: 35vw;
+    height: 375px;
+  }
+  .country-title {
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .countries {
+    margin-inline: var(--margin-hor-sec-540);
+  }
+  .tab-header {
+    font-size: 26px;
+  }
+  .country-tab {
+    width: 51vw;
+    height: 300px;
+  }
+}

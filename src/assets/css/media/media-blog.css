@@ -1,0 +1,94 @@
+/* ---------- */
+/* -- Blog -- */
+/* ---------- */
+
+@media screen and (max-width: 1440px) {
+  .blog-head {
+    font-size: 42px;
+  }
+  #blog p {
+    font-size: 18px;
+  }
+  #blog img {
+    width: 39vw;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #blog {
+    margin-inline: var(--margin-hor-1280);
+    margin-bottom: 90px;
+  }
+  .blog-head {
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+  #blog p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #blog img {
+    width: 33vw;
+  }
+  .blog-content {
+    margin-top: 53px;
+  }
+  #blog .button {
+    font-size: 15px;
+    padding: 5px 10px;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #blog {
+    gap: 54px;
+    margin-inline: var(--margin-hor-1000);
+    margin-bottom: 80px;
+  }
+  .blog-head {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  #blog p {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .blog-content {
+    margin-top: 53px;
+  }
+  #blog .button {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #blog {
+    padding: 35px;
+  }
+  .blog-content {
+    margin-top: 0;
+  }
+  #blog img {
+    display: none;
+  }
+}
+@media screen and (max-width: 540px) {
+  #blog {
+    padding: 39px;
+    margin-bottom: 60px;
+    margin-inline: 25px;
+  }
+  .blog-head {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  #blog p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  #blog .button {
+    display: table;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}

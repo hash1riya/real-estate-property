@@ -1,0 +1,140 @@
+@media screen and (max-width: 1440px) {
+  .navbar-head {
+    font-size: 18px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  footer {
+    margin-inline: var(--margin-hor-sec-1280);
+  }
+  footer .logo {
+    width: 165px;
+  }
+  .navbar-head {
+    font-size: 16px;
+  }
+  .navbar li {
+    font-size: 14px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  .footer-content p {
+    width: 300px;
+  }
+  .footer-text,
+  .social {
+    margin-bottom: 20px;
+  }
+  .email-input {
+    padding: 8px;
+  }
+  footer input[type="email"] {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  footer {
+    margin-inline: var(--margin-hor-sec-1000);
+  }
+  footer .logo {
+    width: 140px;
+  }
+  .navbar-head {
+    font-size: 14px;
+  }
+  footer p,
+  .navbar li,
+  .rigths {
+    font-size: 12px;
+  }
+  .footer-content p {
+    width: 250px;
+  }
+  .footer-text,
+  .social {
+    margin-bottom: 15px;
+  }
+  .subscription p {
+    margin-block: 15px;
+    width: 200px;
+  }
+  .email-input {
+    padding: 8px;
+  }
+  footer input[type="email"] {
+    font-size: 12px;
+    line-height: 100%;
+  }
+  footer input[type="submit"] {
+    width: 35px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    margin-inline: var(--margin-hor-sec-768);
+  }
+  footer .logo {
+    width: 125px;
+  }
+  .navbar-head {
+    font-size: 12px;
+  }
+  .navbar li {
+    font-size: 10px;
+  }
+  footer p,
+  .navbar li,
+  .rigths {
+    font-size: 10px;
+  }
+  .footer-content p {
+    width: 200px;
+  }
+  .footer-text,
+  .social {
+    margin-bottom: 12px;
+  }
+  .social img {
+    width: 18px;
+  }
+  .subscription p {
+    margin-block: 12px;
+    width: 180px;
+  }
+  .email-input {
+    padding: 8px;
+    width: min-content;
+  }
+  footer input[type="email"] {
+    font-size: 12px;
+    width: 150px;
+  }
+  footer input[type="submit"] {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 540px) {
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    width: 330px;
+    margin: 0 auto;
+  }
+  footer .logo {
+    margin-inline: auto;
+  }
+  .footer-content p {
+    text-align: start;
+  }
+  .social {
+    justify-content: center;
+  }
+}

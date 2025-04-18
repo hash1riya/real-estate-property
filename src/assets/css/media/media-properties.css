@@ -1,0 +1,85 @@
+/*----------- */
+/* Properties */
+/* ---------- */
+
+@media screen and (max-width: 1440px) {
+  .property-img {
+    width: 10vw;
+  }
+  .property-name {
+    font-size: 25px;
+  }
+  .property-attributes {
+    gap: 25px;
+    letter-spacing: -1px;
+  }
+  .property-tab {
+    width: 39.4vw;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #properties {
+    margin-inline: var(--margin-hor-sec-1280);
+    margin-bottom: 100px;
+  }
+  .property-list {
+    justify-content: center;
+  }
+  .property-tab {
+    display: block;
+    padding: 22px 25px;
+  }
+  .property-img {
+    width: 15vw;
+    margin-bottom: 20px;
+  }
+  .property-name {
+    font-size: 19px;
+  }
+  .property-attributes {
+    gap: 20px;
+    letter-spacing: -1px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #properties {
+    margin-inline: var(--margin-hor-sec-768);
+    margin-bottom: 80px;
+  }
+  .property-tab {
+    padding: 20px 22px;
+    display: flex;
+    gap: 25px;
+    width: 100%;
+  }
+  .property-img {
+    width: 18vw;
+    margin: 0;
+  }
+  .property-name {
+    font-size: 21px;
+  }
+  .property-attributes {
+    gap: 20px;
+    letter-spacing: -1px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #properties {
+    margin-inline: var(--margin-hor-sec-540);
+    margin-bottom: 60px;
+  }
+  .property-tab {
+    display: block;
+  }
+  .property-img {
+    width: 35vw;
+    margin-bottom: 20px;
+  }
+  .property-name {
+    font-size: 21px;
+  }
+  .property-attributes {
+    letter-spacing: -1.8px;
+  }
+}

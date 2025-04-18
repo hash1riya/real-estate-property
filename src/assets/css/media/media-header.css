@@ -1,0 +1,42 @@
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+
+@media screen and (max-width: 1280px) {
+  /* Header */
+  .header {
+    margin-inline: var(--margin-hor-sec-1280);
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 125%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  /* Header */
+  .header {
+    margin-inline: var(--margin-hor-sec-1000);
+    font-size: 12px;
+    line-height: 125%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* Header */
+  .header {
+    margin-inline: var(--margin-hor-sec-768);
+    margin-bottom: 35px;
+  }
+  /* Menu */
+  .header .navbar {
+    display: none;
+  }
+  /* Burger menu */
+  .burger-menu {
+    display: block;
+  }
+}
+@media screen and (max-width: 540px) {
+  /* Header */
+  .header {
+    margin-inline: var(--margin-hor-sec-540);
+  }
+}
