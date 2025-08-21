@@ -1,0 +1,18 @@
+[
+  {
+    "title": "america",
+    "imgPath": "/src/assets/img/img-country-america.png"
+  },
+  {
+    "title": "spain",
+    "imgPath": "/src/assets/img/img-country-spain.png"
+  },
+  {
+    "title": "great britain",
+    "imgPath": "/src/assets/img/img-country-great-britain.png"
+  },
+  {
+    "title": "france",
+    "imgPath": "/src/assets/img/img-country-france.png"
+  }
+]

@@ -2,6 +2,74 @@
 /* Properties */
 /* ---------- */
 
+#properties {
+  margin: 0 var(--margin-hor-sec) 120px var(--margin-hor-sec);
+}
+#properties a {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--color-prim);
+  text-decoration: none;
+}
+.tab-header {
+  color: var(--color-text);
+  margin-bottom: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+/* Property list */
+.property-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+/* Property tab */
+.property-tab {
+  border: 1.5px solid #dcdceb;
+  border-radius: 30px;
+  box-shadow: 0 17px 50px 0 rgba(143, 144, 166, 0.32);
+  width: 585px;
+  height: min-content;
+  padding: 29px 36px;
+  display: flex;
+  gap: 36px;
+}
+.property-tab:hover {
+  border: 1px solid var(--color-prim);
+}
+.property-desc {
+  width: fit-content;
+  align-items: top;
+}
+.property-name {
+  font-weight: 600;
+  font-size: var(--fs-h3);
+  color: var(--color-text);
+  margin-bottom: 18px;
+}
+/* Property attributes */
+.property-attributes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  gap: 35px;
+}
+.property-attributes span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-acc);
+}
+/* Price */
+.property-price {
+  border-radius: 10px;
+  background: var(--color-acc);
+  font-weight: 500;
+  font-size: 19px;
+  color: #fff !important;
+  padding: 8px 19px;
+}
+
 @media screen and (max-width: 1440px) {
   .property-img {
     width: 10vw;

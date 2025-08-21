@@ -3,30 +3,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Numans&display=swap");
 
-/* Imports */
-/* ---------------------------------------------- */
-
-/* Reset */
-@import url(/src/assets/css/base/reset.css);
-
-/* Components */
-/* ---------------------------------------------- */
-@import url(/src/assets/css/css-components/header.css);
-@import url(/src/assets/css/css-components/home.css);
-@import url(/src/assets/css/css-components/countries.css);
-@import url(/src/assets/css/css-components/properties.css);
-@import url(/src/assets/css/css-components/blog.css);
-@import url(/src/assets/css/css-components/footer.css);
-
-/* Media */
-@import url(/src/assets/css/media/media-base.css);
-@import url(/src/assets/css/media/media-header.css);
-@import url(/src/assets/css/media/media-home.css);
-@import url(/src/assets/css/media/media-countries.css);
-@import url(/src/assets/css/media/media-properties.css);
-@import url(/src/assets/css/media/media-blog.css);
-@import url(/src/assets/css/media/media-footer.css);
-
 /* Variables */
 /* ---------------------------------------------- */
 
@@ -114,4 +90,22 @@
   text-transform: uppercase;
   color: #fff;
   border: none;
+}
+
+@media screen and (max-width: 1440px) {
+  /* Wrapper */
+  .wrapper {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .button-transperant {
+    padding: 6px 33px !important;
+    line-height: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .button-transperant {
+    padding: 6px 15px !important;
+  }
 }
