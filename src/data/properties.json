@@ -6,7 +6,7 @@
     "garages": "-",
     "poster": "X Builder",
     "price": 45545,
-    "imgPath": "/assets/img/img-property1.png"
+    "imgPath": "../../assets/img/img-property1.png"
   },
   {
     "name": "103/143 West Street, Crows Nest",
@@ -15,7 +15,7 @@
     "garages": 2,
     "poster": "X Builder",
     "price": 45545,
-    "imgPath": "/assets/img/img-property2.png"
+    "imgPath": "../../assets/img/img-property2.png"
   },
   {
     "name": "103/143 West Street, Crows Nest",
@@ -24,7 +24,7 @@
     "garages": 1,
     "poster": "X Builder",
     "price": 45545,
-    "imgPath": "/assets/img/img-property3.png"
+    "imgPath": "../../assets/img/img-property3.png"
   },
   {
     "name": "103/143 West Street, Crows Nest",
@@ -33,7 +33,7 @@
     "garages": 1,
     "poster": "X Builder",
     "price": 45545,
-    "imgPath": "/assets/img/img-property4.png"
+    "imgPath": "../../assets/img/img-property4.png"
   },
   {
     "name": "103/143 West Street, Crows Nest",
@@ -42,7 +42,7 @@
     "garages": 2,
     "poster": "X Builder",
     "price": 45545,
-    "imgPath": "/assets/img/img-property5.png"
+    "imgPath": "../../assets/img/img-property5.png"
   },
   {
     "name": "103/143 West Street, Crows Nest",
@@ -51,6 +51,6 @@
     "garages": 2,
     "poster": "X Builder",
     "price": 45545,
-    "imgPath": "/assets/img/img-property6.png"
+    "imgPath": "../../assets/img/img-property6.png"
   }
 ]
