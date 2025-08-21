@@ -23,11 +23,13 @@ A simple responsive **landing page for a property website**, built with **plain 
 ---
 
 ## 📂 Project Structure
+├── src
+    ├── assets
+        ├── css # Styles
+        ├── img # Images
+        ├── js # Javascript functionality
+    ├── data # Data
 ├── index.html # Main page
-├── style.css # Stylesheet
-├── script.js # JavaScript functionality
-├── Screenshot (3).png
-├── Screenshot (4).png
 └── README.md
 
 ---
