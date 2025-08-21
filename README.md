@@ -2,10 +2,19 @@
 
 A simple responsive **landing page for a property website**, built with **plain HTML, CSS, and JavaScript** — without using any external libraries or frameworks.
 
-<img width="1898" height="1080" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/5ddba7ca-03e7-4715-9d2a-ff42b4ac38be" />
-<img width="1898" height="1080" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/23493b57-4e21-4417-9692-5023dfcd549c" />
-<img width="327" height="755" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/b4bc56ea-b3d7-4162-99c2-615efd5a1850" />
+## 📸 Screenshots
 
+<table>
+  <tr>
+    <td>
+      <img height="377" alt="Screenshot (3)" src="https://github.com/user-attachments/assets/5ddba7ca-03e7-4715-9d2a-ff42b4ac38be" /><br/>
+      <img height="377" alt="Screenshot (4)" src="https://github.com/user-attachments/assets/23493b57-4e21-4417-9692-5023dfcd549c" />
+    </td>
+    <td>
+      <img width="327" height="755" alt="Screenshot (5)" src="https://github.com/user-attachments/assets/b4bc56ea-b3d7-4162-99c2-615efd5a1850" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -23,6 +32,7 @@ A simple responsive **landing page for a property website**, built with **plain 
 ---
 
 ## 📂 Project Structure
+```
 ├── src
     ├── assets
         ├── css # Styles
@@ -31,7 +41,7 @@ A simple responsive **landing page for a property website**, built with **plain 
     ├── data # Data
 ├── index.html # Main page
 └── README.md
-
+```
 ---
 
 ## 🎯 Purpose
